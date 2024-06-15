@@ -1,0 +1,9 @@
+Las tareas son para la ultima clase
+
+route handlers
+se usan para instncias de aplicacion 
+metodos de verbos http
+i.e
+app.get('/ruta',(req,res)=>{
+  res.send('respuesta de la ruta');
+});
