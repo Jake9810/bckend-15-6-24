@@ -32,3 +32,28 @@ git log --grep "mdh"
   trae los commits con mensaje que tengan un mensaje en particular
 git blame fileName.fileExtention
   trae la hora, fecha, autor head, commit y codigo que se hizo
+git checkout "numeros del head" 
+  es para ver todoso los cambios que se hicieron en una version pasada
+git checkout HEAD# fileName.fileExtencion
+  regresa a una versión  anterior, se pierde el progreso actual 
+git reset head# --soft
+  regresa a cierto commit pero se borra todos los cambios que estan despues de ese commit, pero --soft mantiene los cambios que estan en stagin 
+git reset head# --hard 
+  regresa a cierto commit pero se borra todos los cambios que estan despues de ese commit
+!-----Middlewares-----!
+funcion que se ejecuta dentro de un cilco de vida de una request
+  tareas de: validación de datos, control de errores, etc
+tienen parametros:
+  req, res, next, send
+  el parametro next se usa como bandera para la ejeción de los siguientes procesos 
+  el parametro send es el comando que se envía una vez que se termian de ejecutar todos los procesos 
+!-----Variables de entorno-----!
+process
+  acceder a argumentos de linea de comandos
+  gestionar señales
+  accede a información del SO
+  salir del proceso 
+  todas van en un archivo .env, este archivo no se sube al repo
+  se tiene que crear un archivo .envExample que trae las instrucciones de ambientación
+  
+  
