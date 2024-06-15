@@ -54,6 +54,11 @@ process
   accede a información del SO
   salir del proceso 
   todas van en un archivo .env, este archivo no se sube al repo
-  se tiene que crear un archivo .envExample que trae las instrucciones de ambientación
+  se tiene que crear un archivo .env.Example que trae las instrucciones de ambientación
+  git ignore se encarga de que sea anulado el commit, pero se tiene que serciorar de que realmente este excluida
+  se cargan al inicio de la ejecución del servidor
+  en el caso de js se suentran en package.json
+    para referenciarlo en el cod se hace const variableName= process.env.VA
+  
   
   
