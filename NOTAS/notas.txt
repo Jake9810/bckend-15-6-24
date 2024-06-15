@@ -7,3 +7,28 @@ i.e
 app.get('/ruta',(req,res)=>{
   res.send('respuesta de la ruta');
 });
+
+revisar clase del 8 6 24 para ver el codigo
+
+en postman para enviar información en una api se envia por raw 
+siguiendo el estandar del json, i.e
+{
+"key":"value"
+}
+!-----git-----!
+git amend
+  al ultimo commit registrado se agrega lo que esta en staging
+git show
+  muestra lo que se commit
+git diff
+  muestra lo que hay en el commit con repecto a lo que se tiene en los archivos se tiene en ese momento
+git log -s"fd"
+  trae los commits que realizaron cambios donde iba el string que se esta pasando 
+git log --author="Name"
+  solo trae los commits que hizo alguien en especifico 
+git log --since "YYY-mm-dd"
+  trae los commits desde una fecha en particular
+git log --grep "mdh"
+  trae los commits con mensaje que tengan un mensaje en particular
+git blame fileName.fileExtention
+  trae la hora, fecha, autor head, commit y codigo que se hizo
