@@ -59,6 +59,24 @@ process
   se cargan al inicio de la ejecución del servidor
   en el caso de js se suentran en package.json
     para referenciarlo en el cod se hace const variableName= process.env.VA
-  
+
+!-----ARquitectura-----!
+biblio grafia clean architecture
+mvc
+arquitectura por capas
+desacoplamiento de capas
+  desacoplamiento de logica de dominio e infraestructura de persistencia
+  cambios transparentes de piezas
+ondependencias del framework
+!-----Recorrido de una request-----!
+hay foto del dirgrama
+!-----Routers-----!
+objeto encargado de enlazar todas las rutas/endpoints con la ruta final, junta  routhandlers que esten relacionados
+se utiliza para 
+  middleware especifico
+  rutas anidads
+  reutilización 
+  versionado de API
+  organización
   
   
